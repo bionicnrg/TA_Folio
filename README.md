@@ -77,10 +77,6 @@ https://www.youtube.com/watch?v=RRE-F57fbXw
 ## raytracing
 https://raytracing.github.io/books/RayTracingInOneWeekend.html
 
-
-## modeling notes
-![c1f8fbe645fcf532905ca3ec074b4e14.png](:/8e278a4f63664e11b8a320aec4f70c62)
-
 ## face weighted normals
 https://www.youtube.com/watch?v=BCTb8XkvarE
 
