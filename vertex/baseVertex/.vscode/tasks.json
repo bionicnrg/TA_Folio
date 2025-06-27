@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build exampleMain003",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "exampleMain003.cpp",
+                "headerFiles/common/commonUtility003.cpp",
+                "-o",
+                "exampleMain003.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: Build exampleMain003.cpp",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "exampleMain003.cpp",
+                "headerFiles/common/commonUtility003.cpp",
+                "-o",
+                "exampleMain003.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build task for exampleMain003.cpp"
+        }
+    ]
+}

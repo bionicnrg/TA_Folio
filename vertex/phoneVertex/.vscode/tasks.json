@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build phoneMain",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "phoneMain.cpp",
+                "headerFiles/common/commonPhone.cpp",
+                "-o",
+                "phoneMain.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: Build phoneMain.cpp",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "phoneMain.cpp",
+                "headerFiles/common/commonPhone.cpp",
+                "-o",
+                "phoneMain.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build task for phoneMain.cpp"
+        }
+    ]
+}
