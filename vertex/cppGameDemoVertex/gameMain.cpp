@@ -1,6 +1,6 @@
 /*
 .Synopsis
-    main file for phone exercise
+    main file for game exercise
 .Description
     reqs
     Game Structure
